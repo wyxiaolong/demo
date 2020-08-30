@@ -8,7 +8,7 @@ public class demo {
     @RequestMapping(value = "/index")
     public String demo(String data){
 
-        return "你好jenkins";
+        return "你好jenkins自动构建吧";
     }
     @RequestMapping(value = "/test")
     public String test(String data){
