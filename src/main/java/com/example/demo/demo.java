@@ -10,4 +10,9 @@ public class demo {
 
         return "你好";
     }
+    @RequestMapping(value = "/test")
+    public String test(String data){
+
+        return "你好aaaaa";
+    }
 }
